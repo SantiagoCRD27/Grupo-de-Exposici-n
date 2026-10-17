@@ -290,11 +290,43 @@ public class VisitanteRegistro : IVisitante
 
 ## Tecnologías relacionadas
 
-- **C#:** lenguaje de programación utilizado para implementar los patrones de diseño mediante clases, interfaces, herencia y métodos.
-- **Programación orientada a objetos (POO):** forma de programar utilizando clases y objetos. Es la base para entender cómo funcionan estos patrones.
-- **UML (diagramas de clases):** permite representar visualmente las clases, las interfaces y las relaciones entre ellas para comprender mejor cómo está organizado el código.
-- **.NET:** plataforma que permite ejecutar aplicaciones desarrolladas en C#.
-- **Principios SOLID:** conjunto de principios que ayudan a escribir código más organizado, flexible y fácil de mantener. Se relacionan con el objetivo de muchos patrones de diseño.
+### 1. Frameworks de desarrollo
+
+<p align="left">
+  <img src="https://cdn.simpleicons.org/spring/6DB33F" width="35" alt="Spring"/>
+  <img src="https://cdn.simpleicons.org/dotnet/512BD4" width="35" alt=".NET"/>
+  <img src="https://cdn.simpleicons.org/llvm/262D3A" width="35" alt="LLVM"/>
+  <img src="https://cdn.simpleicons.org/eslint/4B32C3" width="35" alt="ESLint"/>
+  <img src="https://cdn.simpleicons.org/prettier/F7B93E" width="35" alt="Prettier"/>
+  <img src="https://cdn.simpleicons.org/sonarqube/4E9BCD" width="35" alt="SonarQube"/>
+</p>
+
+- **Spring Framework (Java):** `JdbcTemplate` utiliza una estructura común para ejecutar operaciones con bases de datos, relacionada con Template Method.
+- **ASP.NET Core (C#):** organiza el procesamiento de peticiones mediante middlewares, relacionados con la cadena de responsabilidad.
+- **Roslyn (.NET), Clang/LLVM y Javac:** utilizan mecanismos de recorrido de árboles sintácticos relacionados con Visitor.
+- **ESLint, Prettier y SonarQube:** analizan el código para detectar errores, aplicar formatos y mejorar su calidad.
+
+### 2. Características de lenguajes modernos
+
+<p align="left">
+  <img src="https://cdn.simpleicons.org/csharp/512BD4" width="35" alt="C#"/>
+  <img src="https://cdn.simpleicons.org/java/ED8B00" width="35" alt="Java"/>
+  <img src="https://cdn.simpleicons.org/python/3776AB" width="35" alt="Python"/>
+  <img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="35" alt="JavaScript"/>
+  <img src="https://cdn.simpleicons.org/kotlin/7F52FF" width="35" alt="Kotlin"/>
+  <img src="https://cdn.simpleicons.org/scala/DC322F" width="35" alt="Scala"/>
+  <img src="https://cdn.simpleicons.org/rust/000000" width="35" alt="Rust"/>
+  <img src="https://cdn.simpleicons.org/swift/F05138" width="35" alt="Swift"/>
+</p>
+
+- **Lambdas y programación funcional:** C#, Java, Python y JavaScript permiten personalizar comportamientos mediante funciones, como alternativa a algunos usos de Template Method.
+- **Pattern Matching:** C#, Java, Kotlin, Scala, Rust y Swift permiten trabajar con diferentes tipos de datos y ofrecen alternativas a ciertos usos de Visitor.
+
+### Idea clave
+
+- **Template Method:** define la estructura de un algoritmo.
+- **Visitor:** separa las operaciones de los objetos.
+- **IoC:** permite que un framework controle el flujo de ejecución.
 
 ### ¿Cómo se relacionan con los patrones?
 
